@@ -4,10 +4,19 @@ using System.Collections.Generic;
 
 namespace IdentityServer
 {
-    public class Config
+    public class IdentityServerConfig
     {
-        public static IEnumerable<Client> GetClients()
+        public static IEnumerable<IdentityResource> GetIdentityResources()
         {
+            return new List<IdentityResource>
+            {
+                new IdentityResources.OpenId(),
+                new IdentityResources.Profile(),
+            };
+        }
+
+        public static IEnumerable<Client> GetClients()
+        {            
             return new List<Client>
             {
                 new Client
