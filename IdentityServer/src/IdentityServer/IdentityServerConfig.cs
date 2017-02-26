@@ -2,7 +2,7 @@
 using IdentityServer4.Models;
 using System.Collections.Generic;
 
-namespace IdentityServer
+namespace HtBox.IdentityServer
 {
     public class IdentityServerConfig
     {

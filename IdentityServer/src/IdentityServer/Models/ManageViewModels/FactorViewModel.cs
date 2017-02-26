@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IdentityServer.Models.ManageViewModels
+namespace HtBox.IdentityServer.Models.ManageViewModels
 {
     public class FactorViewModel
     {

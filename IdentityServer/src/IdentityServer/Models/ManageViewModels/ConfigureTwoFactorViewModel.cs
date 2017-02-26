@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace IdentityServer.Models.ManageViewModels
+namespace HtBox.IdentityServer.Models.ManageViewModels
 {
     public class ConfigureTwoFactorViewModel
     {

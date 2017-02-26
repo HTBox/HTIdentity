@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using IdentityServer.Models;
-using IdentityServer.Models.ManageViewModels;
+using HtBox.IdentityServer.Models.ManageViewModels;
 using IdentityServer.Services;
+using HtBox.IdentityServer.Models;
 
-namespace IdentityServer.Controllers
+namespace HtBox.IdentityServer.Controllers
 {
     [Authorize]
     public class ManageController : Controller

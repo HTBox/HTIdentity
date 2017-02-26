@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using IdentityServer.Data;
-using IdentityServer.Models;
+using HtBox.IdentityServer.Data;
+using HtBox.IdentityServer.Models;
 using IdentityServer.Services;
 
-namespace IdentityServer
+namespace HtBox.IdentityServer
 {
     public class Startup
     {
