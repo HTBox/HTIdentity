@@ -10,11 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtBox.IdentityServer", "src\IdentityServer\HtBox.IdentityServer.xproj", "{17408925-D5DF-4544-BF63-96B24E202639}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A259A299-57A5-4D92-B76E-07F6C78361E1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtBox.IdentityServer.Tests", "tests\IdentityServer.Tests\HtBox.IdentityServer.Tests.xproj", "{90912268-5F7D-4362-A8CD-B1CEF103AB95}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtBox.IdentityServer", "src\HtBox.IdentityServer\HtBox.IdentityServer.xproj", "{17408925-D5DF-4544-BF63-96B24E202639}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtBox.IdentityServer.Tests", "tests\HtBox.IdentityServer.Tests\HtBox.IdentityServer.Tests.xproj", "{90912268-5F7D-4362-A8CD-B1CEF103AB95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
