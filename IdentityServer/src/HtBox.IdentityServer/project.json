@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet-IdentityServer-0f0420fb-4409-4bd9-9562-3ec1585f9316",
 
   "dependencies": {
@@ -20,7 +20,6 @@
     "Microsoft.Extensions.Logging.Console": "1.1.0",
     "Microsoft.Extensions.Logging.Debug": "1.1.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.1.0",
-    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
     "Microsoft.VisualStudio.Web.CodeGeneration.Tools": {
       "version": "1.0.0-preview2-final",
       "type": "build"
@@ -29,7 +28,6 @@
       "version": "1.0.0-preview2-final",
       "type": "build"
     },
-    "BundlerMinifier.Core": "2.3.327",
     "Microsoft.AspNetCore.Authentication.Cookies": "1.1.0",
     "Microsoft.AspNetCore.Diagnostics": "1.1.0",
     "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "1.1.0",
@@ -39,7 +37,9 @@
     "Microsoft.AspNetCore.Routing": "1.1.0",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.1.0",
     "Microsoft.AspNetCore.Server.IISIntegration.Tools": "1.1.0-preview4-final",
-    "IdentityServer4.AspNetIdentity": "1.0.0"
+    "IdentityServer4.AspNetIdentity": "1.0.0",
+    "BundlerMinifier.Core": "2.4.337",
+    "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0"
   },
 
   "tools": {
