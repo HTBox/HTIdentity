@@ -19,8 +19,8 @@ before_build:
  - cmd: npm install -g bower
 
 build_script:
- - cmd: dotnet publish IdentityServer\src\HtBox.IdentityServer\project.json --output c:\Published
- - cmd: dotnet build IdentityServer\tests\HtBox.IdentityServer.Tests\project.json
+ - cmd: dotnet publish IdentityServer\src\HtBox.IdentityServer\HtBox.IdentityServer.csproj --output c:\Published
+ - cmd: dotnet build IdentityServer\tests\HtBox.IdentityServer.Tests\HtBox.IdentityServer.Tests.csproj
 
 test_script:
  - ps: cd .\IdentityServer\tests\HtBox.IdentityServer.Tests
